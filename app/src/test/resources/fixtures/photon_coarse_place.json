@@ -1,0 +1,35 @@
+{
+  "features": [
+    {
+      "geometry": {"coordinates": [13.3888599, 52.5170365], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8301,
+        "osm_type": "N",
+        "osm_key": "place",
+        "osm_value": "city",
+        "name": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "countrycode": "DE"
+      }
+    },
+    {
+      "geometry": {"coordinates": [106.6992, 10.7731], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8302,
+        "osm_type": "N",
+        "osm_key": "place",
+        "osm_value": "house_number",
+        "housenumber": "10",
+        "street": "Nguyễn Thị Nghĩa",
+        "district": "Quận 1",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Việt Nam",
+        "countrycode": "VN"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,72 @@
+{
+  "code": "Ok",
+  "routes": [
+    {
+      "geometry": "ochs]o`llmE_jZoe`@oyo@oggA",
+      "legs": [
+        {
+          "steps": [
+            {
+              "geometry": "ochs]o`llmE_jZoe`@",
+              "maneuver": {
+                "bearing_after": 45,
+                "bearing_before": 0,
+                "location": [108.223000, 16.061000],
+                "type": "depart"
+              },
+              "mode": "driving",
+              "duration": 290.0,
+              "distance": 3210.0,
+              "name": "Đường Võ Văn Kiệt"
+            },
+            {
+              "geometry": "schs]o`llmEoyo@oggA",
+              "maneuver": {
+                "bearing_after": 50,
+                "bearing_before": 45,
+                "location": [108.240000, 16.075000],
+                "modifier": "slight left",
+                "type": "turn"
+              },
+              "mode": "driving",
+              "duration": 450.0,
+              "distance": 5020.0,
+              "name": "Đường Hoàng Sa"
+            },
+            {
+              "geometry": "schs]o`llmE",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 50,
+                "location": [108.277000, 16.100000],
+                "type": "arrive"
+              },
+              "mode": "driving",
+              "duration": 0.0,
+              "distance": 0.0,
+              "name": "Chùa Linh Ứng - Bán đảo Sơn Trà"
+            }
+          ],
+          "summary": "Đường Võ Văn Kiệt, Đường Hoàng Sa",
+          "weight": 740.0,
+          "duration": 740.0,
+          "distance": 8230.0
+        }
+      ],
+      "weight_name": "auto",
+      "weight": 740.0,
+      "duration": 740.0,
+      "distance": 8230.0
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Cầu Rồng",
+      "location": [108.223000, 16.061000]
+    },
+    {
+      "name": "Chùa Linh Ứng",
+      "location": [108.277000, 16.100000]
+    }
+  ]
+}

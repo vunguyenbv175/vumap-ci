@@ -1,0 +1,25 @@
+# Gradle / Android
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.DS_Store
+
+# Android Studio
+.idea/
+*.hprof
+
+# Keystores and secrets — NEVER commit
+*.jks
+*.keystore
+*.p12
+google-services.json
+
+# Personal traces / private media — NEVER commit (project plan section 0.8)
+*.gpx
+*.kml
+
+# Python host tooling
+__pycache__/
+*.pyc

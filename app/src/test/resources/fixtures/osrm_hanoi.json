@@ -1,0 +1,86 @@
+{
+  "code": "Ok",
+  "routes": [
+    {
+      "geometry": "ghnbg@ony{hEgpAnbKgfFnqPgmE~qG",
+      "legs": [
+        {
+          "steps": [
+            {
+              "geometry": "ghnbg@ony{hEgpAnbK",
+              "maneuver": {
+                "bearing_after": 290,
+                "bearing_before": 0,
+                "location": [105.854200, 21.028500],
+                "type": "depart"
+              },
+              "mode": "driving",
+              "duration": 90.0,
+              "distance": 650.0,
+              "name": "Phố Tràng Thi"
+            },
+            {
+              "geometry": "shnbg@ony{hEgfFnqP",
+              "maneuver": {
+                "bearing_after": 310,
+                "bearing_before": 290,
+                "location": [105.848000, 21.029800],
+                "modifier": "slight right",
+                "type": "turn"
+              },
+              "mode": "driving",
+              "duration": 150.0,
+              "distance": 1100.0,
+              "name": "Đường Điện Biên Phủ"
+            },
+            {
+              "geometry": "shnbg@ony{hEgmE~qG",
+              "maneuver": {
+                "bearing_after": 315,
+                "bearing_before": 310,
+                "location": [105.839000, 21.033500],
+                "modifier": "straight",
+                "type": "continue"
+              },
+              "mode": "driving",
+              "duration": 110.0,
+              "distance": 750.0,
+              "name": "Đường Độc Lập"
+            },
+            {
+              "geometry": "shnbg@ony{hE",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 315,
+                "location": [105.834600, 21.036800],
+                "type": "arrive"
+              },
+              "mode": "driving",
+              "duration": 0.0,
+              "distance": 0.0,
+              "name": "Lăng Chủ tịch Hồ Chí Minh"
+            }
+          ],
+          "summary": "Phố Tràng Thi, Đường Điện Biên Phủ",
+          "weight": 350.0,
+          "duration": 350.0,
+          "distance": 2500.0
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 350.0,
+      "duration": 350.0,
+      "distance": 2500.0
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Bưu điện Bờ Hồ",
+      "location": [105.854200, 21.028500]
+    },
+    {
+      "name": "Lăng Chủ tịch Hồ Chí Minh",
+      "location": [105.834600, 21.036800]
+    }
+  ]
+}

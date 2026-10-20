@@ -1,0 +1,9 @@
+{
+  "lang": [
+    {
+      "message": "Language is not supported. Supported are: default, de, en, fr",
+      "args": {},
+      "value": "vi"
+    }
+  ]
+}

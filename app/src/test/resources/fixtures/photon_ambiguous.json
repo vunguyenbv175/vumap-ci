@@ -1,0 +1,33 @@
+{
+  "features": [
+    {
+      "geometry": {"coordinates": [106.700100, 10.768600], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2001,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "primary",
+        "street": "Trần Hưng Đạo",
+        "district": "Quận 1",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Việt Nam"
+      }
+    },
+    {
+      "geometry": {"coordinates": [105.850000, 21.033300], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2002,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "primary",
+        "street": "Trần Hưng Đạo",
+        "district": "Hoàn Kiếm",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

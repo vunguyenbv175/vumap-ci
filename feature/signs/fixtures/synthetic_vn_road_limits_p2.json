@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "provenance": {
+    "source": "synthetic-vumap-p2",
+    "license": "synthetic-test-only — not surveyed road data, never navigate by it",
+    "version": "p2-20261020",
+    "synthetic": true,
+    "note": "Hand-built CI fixture for the schema-v2 road_limits table. Covers sign/road agreement, sign/road conflict, road-only directional evidence, opposite-direction evidence, road-road conflict, and conditional/lane/vehicle unsupported abstention. Coordinates and limits are synthetic, NOT field truth and NOT legal speed verification."
+  },
+  "edges": [
+    {"id": "E_RL1", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Sign 60 + road 60: agreement"},
+    {"id": "E_RL2", "carriageway": "TWO_WAY_OR_ONEWAY_1LANE", "level": 0, "roadClass": "residential", "lanes": 1, "headingDeg": 180, "note": "Sign 60 + road 50: conflict must abstain"},
+    {"id": "E_RL3", "carriageway": "UNKNOWN", "level": 0, "roadClass": "secondary", "lanes": null, "headingDeg": 45, "note": "Conditional/lane/vehicle tags only: must abstain"},
+    {"id": "E_RL4", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "motorway", "lanes": 3, "headingDeg": 270, "note": "Road-only forward 100, opposite-direction 80 ignored"},
+    {"id": "E_RL5", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Two road records disagree: ROAD_SOURCE_AMBIGUOUS"}
+  ],
+  "points": [
+    {"id": "S_RL1", "type": "P127", "lat": 10.82310, "lon": 106.62970, "headingDeg": 90, "valueKmh": 60, "edgeId": "E_RL1", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Direction-matched 60 agreeing with road evidence"},
+    {"id": "S_RL2", "type": "P127", "lat": 10.84310, "lon": 106.63970, "headingDeg": 180, "valueKmh": 60, "edgeId": "E_RL2", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Conflicts with road 50 on the same edge"}
+  ],
+  "roadLimits": [
+    {"id": "RL1_FWD", "edgeId": "E_RL1", "direction": "FORWARD", "valueKmh": 60, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 1 tag maxspeed:forward"},
+    {"id": "RL2_BOTH", "edgeId": "E_RL2", "direction": "BOTH", "valueKmh": 50, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 2 tag maxspeed"},
+    {"id": "RL3_COND", "edgeId": "E_RL3", "direction": "FORWARD", "valueKmh": null, "applicability": "CONDITIONAL_UNSUPPORTED", "confidence": 0.8, "provenance": "synthetic OSM way 3 tag maxspeed:conditional"},
+    {"id": "RL3_HGV", "edgeId": "E_RL3", "direction": "BOTH", "valueKmh": null, "applicability": "VEHICLE_UNSUPPORTED", "confidence": 0.8, "provenance": "synthetic OSM way 3 tag maxspeed:hgv"},
+    {"id": "RL3_LANE", "edgeId": "E_RL3", "direction": "FORWARD", "valueKmh": null, "applicability": "LANE_UNSUPPORTED", "confidence": 0.8, "provenance": "synthetic OSM way 3 tag maxspeed:lanes"},
+    {"id": "RL4_BWD", "edgeId": "E_RL4", "direction": "BACKWARD", "valueKmh": 80, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 4 tag maxspeed:backward"},
+    {"id": "RL4_FWD", "edgeId": "E_RL4", "direction": "FORWARD", "valueKmh": 100, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 4 tag maxspeed:forward"},
+    {"id": "RL5_BOTH", "edgeId": "E_RL5", "direction": "BOTH", "valueKmh": 60, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 5 tag maxspeed"},
+    {"id": "RL5_FWD", "edgeId": "E_RL5", "direction": "FORWARD", "valueKmh": 50, "applicability": "SUPPORTED", "confidence": 0.85, "provenance": "synthetic OSM way 5 tag maxspeed:forward"}
+  ]
+}

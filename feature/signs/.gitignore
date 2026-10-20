@@ -1,0 +1,4 @@
+# Host build outputs for the P1 signs fixture/pack pipeline (never committed).
+build/
+__pycache__/
+*.pyc

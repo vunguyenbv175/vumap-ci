@@ -1,0 +1,15 @@
+{
+  "contentSha256": "2df7d1f389ca5bb1e65047df76ee3088b60c94e77457b49c7a4e68bca2467388",
+  "edgeCount": 13,
+  "format": "vupack",
+  "formatVersion": 1,
+  "license": "synthetic-test-only \u2014 not a surveyed sign, never navigate by it",
+  "note": "Synthetic CI fixture pack - NOT field truth, NOT surveyed signs. Never navigate by this data.",
+  "packBytes": 28672,
+  "pointCount": 18,
+  "schemaVersion": 1,
+  "sha256": "8b4a47e82c1392d5acb1cdb55699f8ce2d18c5b54bad86e5ebc40327b51d25e2",
+  "source": "synthetic-vumap-p1",
+  "synthetic": true,
+  "version": "p1-20261015"
+}

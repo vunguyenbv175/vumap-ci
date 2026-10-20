@@ -1,0 +1,22 @@
+[
+  {"query": "Hẻm 51 Nguyễn Thị Nghĩa, Quận 1, TP.HCM", "region": "HCM-hem", "hemIntent": true, "fallbackQuery": "Nguyễn Thị Nghĩa, Quận 1, TP.HCM"},
+  {"query": "hem 51 nguyen thi nghia quan 1", "region": "HCM-hem", "hemIntent": true, "normalizedContains": "hem 51 nguyen thi nghia"},
+  {"query": "123/45 Cách Mạng Tháng Tám, Quận 3", "region": "HCM-hem", "hemIntent": true, "fallbackQuery": "Cách Mạng Tháng Tám, Quận 3"},
+  {"query": "Chợ Bến Thành, Quận 1", "region": "HCM-poi", "hemIntent": false},
+  {"query": "Sài Gòn Centre, Lê Lợi", "region": "HCM-alias", "hemIntent": false, "aliasVariant": "ho chi minh"},
+  {"query": "Đường số 5, Phường Bình Hưng Hòa, Bình Tân", "region": "HCM-duong-so", "hemIntent": true, "fallbackQuery": "Đường số 5, Phường Bình Hưng Hòa, Bình Tân"},
+  {"query": "Ngõ 15 Trung Kính, Cầu Giấy, Hà Nội", "region": "HN-ngo", "hemIntent": true, "fallbackQuery": "Trung Kính, Cầu Giấy, Hà Nội"},
+  {"query": "ngo 15 trung kinh cau giay", "region": "HN-ngo", "hemIntent": true, "normalizedContains": "ngo 15 trung kinh"},
+  {"query": "Phố Tạ Hiện, Hoàn Kiếm, Hà Nội", "region": "HN-pho", "hemIntent": false},
+  {"query": "Thủ Thiêm, Quận 2, Sài Gòn", "region": "HCM-alias", "hemIntent": false, "aliasVariant": "thu duc"},
+  {"query": "Cầu Rồng, Đà Nẵng", "region": "DN-poi", "hemIntent": false},
+  {"query": "Chùa Linh Ứng, Sơn Trà, Đà Nẵng", "region": "DN-poi", "hemIntent": false},
+  {"query": "Phố cổ Hội An, Quảng Nam", "region": "DN-alias", "hemIntent": false, "aliasVariant": "Đà Nẵng"},
+  {"query": "Hồ Xuân Hương, Đà Lạt, Lâm Đồng", "region": "LD-poi", "hemIntent": false, "aliasVariant": "lam dong"},
+  {"query": "Đèo Bảo Lộc, Lâm Đồng", "region": "LD-deo", "hemIntent": false},
+  {"query": "Chợ nổi Cái Răng, Cần Thơ", "region": "MT-poi", "hemIntent": false},
+  {"query": "Cầu Mỹ Thuận, Vĩnh Long", "region": "MT-cau", "hemIntent": false},
+  {"query": "Bến Ninh Kiều, Cần Thơ", "region": "MT-poi", "hemIntent": false},
+  {"query": "10.7725, 106.6980", "region": "coords", "hemIntent": false, "geoKind": "coordinates"},
+  {"query": "geo:10.7725,106.6980?q=Chợ Bến Thành", "region": "geo-link", "hemIntent": false, "geoKind": "placequery"}
+]

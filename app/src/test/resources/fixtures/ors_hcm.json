@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [106.698000, 10.772500, 106.703200, 10.776800],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [106.698000, 10.772500],
+          [106.700500, 10.773800],
+          [106.703200, 10.776800]
+        ]
+      },
+      "properties": {
+        "segments": [
+          {
+            "distance": 800.0,
+            "duration": 105.0,
+            "steps": [
+              {
+                "distance": 320.0,
+                "duration": 45.0,
+                "type": 11,
+                "instruction": "Đi tiếp trên Đường Lê Lợi",
+                "name": "Đường Lê Lợi",
+                "way_points": [0, 1]
+              },
+              {
+                "distance": 480.0,
+                "duration": 60.0,
+                "type": 11,
+                "instruction": "Tiếp tục đi thẳng trên Đường Lê Lợi",
+                "name": "Đường Lê Lợi",
+                "way_points": [1, 2]
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "distance": 800.0,
+          "duration": 105.0
+        }
+      }
+    }
+  ]
+}

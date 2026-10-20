@@ -1,0 +1,87 @@
+{
+  "features": [
+    {
+      "geometry": {"coordinates": [-1.7330, 51.4090], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8101,
+        "osm_type": "N",
+        "osm_key": "amenity",
+        "osm_value": "pub",
+        "name": "Landmark",
+        "street": "High Street",
+        "district": "Marlborough",
+        "city": "Marlborough",
+        "country": "United Kingdom",
+        "countrycode": "GB"
+      }
+    },
+    {
+      "geometry": {"coordinates": [-77.4080, 38.4173], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8102,
+        "osm_type": "N",
+        "osm_key": "place",
+        "osm_value": "house_number",
+        "housenumber": "81",
+        "name": "81 Landmark Drive",
+        "street": "Landmark Drive",
+        "city": "Stafford",
+        "state": "Virginia",
+        "country": "United States",
+        "countrycode": "US"
+      }
+    },
+    {
+      "geometry": {"coordinates": [106.7230, 10.7870], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8103,
+        "osm_type": "N",
+        "osm_key": "shop",
+        "osm_value": "convenience",
+        "name": "Cửa Hàng Innsfree - Vincom Landmark 81",
+        "street": "Trần Trọng Kim",
+        "district": "Thạnh Mỹ Tây",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Việt Nam",
+        "countrycode": "VN"
+      }
+    },
+    {
+      "geometry": {"coordinates": [-72.5577, 42.8509], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8104,
+        "osm_type": "N",
+        "osm_key": "place",
+        "osm_value": "house_number",
+        "housenumber": "81",
+        "name": "81 Landmark Hill Drive",
+        "street": "Landmark Hill Drive",
+        "city": "Brattleboro",
+        "state": "Vermont",
+        "country": "United States",
+        "countrycode": "US"
+      }
+    },
+    {
+      "geometry": {"coordinates": [106.7231, 10.7871], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8105,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "pedestrian",
+        "name": "Vinhomes Central Park - Tòa nhà Landmark 81",
+        "street": "Trần Trọng Kim",
+        "district": "Thạnh Mỹ Tây",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Việt Nam",
+        "countrycode": "VN"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

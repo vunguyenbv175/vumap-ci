@@ -1,0 +1,1167 @@
+{
+  "format": 1,
+  "snapshotKind": "public-ci",
+  "sourceRepository": "vunguyenbv175/vumap",
+  "sourceRepositoryUrl": "https://github.com/vunguyenbv175/vumap",
+  "sourceRef": "94530763f1189b75093524e27b980f38584a1760",
+  "sourceCommitDate": "2026-10-21T06:35:32+07:00",
+  "publicRepository": "vunguyenbv175/vumap-ci",
+  "publicRepositoryUrl": "https://github.com/vunguyenbv175/vumap-ci",
+  "exportPolicySha256": "778d3533af4b323dcde749f14e3d9bbea4525ed5b74b5403d7c68fa78d688006",
+  "exportToolSha256": "bb160be8be77909e5e6ba15abbbc9d682b6182458040f80fc1425935490a5f75",
+  "redactionRulesSha256": "d16247cfbee212f10d8cd7755b898b3ada36a944336e5e7d3edd652f63a54fc7",
+  "fileCount": 212,
+  "totalBytes": 1363660,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "7d3d7cd31d69aaae2acbe9f187f52d1345a6c273f49abe541b31c5063007c923",
+      "size": 112
+    },
+    {
+      "path": ".github/workflows/android-ci.yml",
+      "sha256": "87ef816b8b018d7450b7c9f1d33df04386fb121eda9f6ce6e69b3abdb09bb284",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/signs-host-tests.yml",
+      "sha256": "50d929350382ea3d49aec677e53733568b2dac235f90dc0e7de70e39ee5f6bc3",
+      "size": 3790
+    },
+    {
+      "path": ".github/workflows/snapshot-integrity.yml",
+      "sha256": "c8f2bf0e697d53b287c43593140a418ebd835cdb559e740fde79870bfa22ef53",
+      "size": 648
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9cb3f688533a6cd38aaa52ca3f6438c4be3566e1455d735a25f90b22ffc90481",
+      "size": 330
+    },
+    {
+      "path": "README.md",
+      "sha256": "b5e3cdfac786a69befc5c798d284a34c8966403c8a954bb0adc2ecbfcb277491",
+      "size": 3866
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "82381ba54c3c5270851e37d2b05790023c532c0e696dc60e206d60f779705e4d",
+      "size": 1642
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "094ae1e0090412a03f25163cf07aa56e4c413a63e4b140cbcf36513d4866621a",
+      "size": 2289
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "sha256": "d849d845794b63d53760318fd380aec8f4930a7c9615cdbe8cc3a867f0f86a70",
+      "size": 157
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "ddd05b1774cc4efcc66d42e6481e7f8fd11801ed3e317fcb28fd17c2184a90c7",
+      "size": 2448
+    },
+    {
+      "path": "app/src/main/assets/signs/synthetic_vn_signs_p1.vupack",
+      "sha256": "8b4a47e82c1392d5acb1cdb55699f8ce2d18c5b54bad86e5ebc40327b51d25e2",
+      "size": 28672
+    },
+    {
+      "path": "app/src/main/assets/signs/synthetic_vn_signs_p1.vupack.manifest.json",
+      "sha256": "a2e966a972e1e668f7222426052382c50c66048b9f2934af6252d80738c326d9",
+      "size": 587
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/MainActivity.kt",
+      "sha256": "d86a9bf246e9f0c5851eb269b96a1f37a3c52ec2685d6d235fc6d36976f3a1d0",
+      "size": 3732
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/VuMapApp.kt",
+      "sha256": "352ac1b281acbffb310340baa3db7291662c6db5208c60f795530b6a707d319e",
+      "size": 570
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/ui/MapScreen.kt",
+      "sha256": "cd5acabb5f91f454ff0d177135add20dacb3123ca0f166c909178104fc4bd7b5",
+      "size": 40672
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/ui/SearchScreen.kt",
+      "sha256": "140fd5813857dffd7ab33a1b2cd580a0be285cfc3a17b841b58fe816ddc83c55",
+      "size": 19852
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/ui/SettingsScreen.kt",
+      "sha256": "fa8389eabf9c923c3947f85b92b4a34a9a2008d94ac9be3c5c5b185599cf8e3b",
+      "size": 13833
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/app/ui/theme/Theme.kt",
+      "sha256": "ce19c08bbb9c72de2a902449d3dc63479a988e977856bc906d00646287dba097",
+      "size": 541
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/location/FixExpiryGate.kt",
+      "sha256": "73f384ccb0a6f09460d75cbcd5d51d5a17545cc6d964ee2410ac0d3b4e5b4154",
+      "size": 3383
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/location/LocationTracker.kt",
+      "sha256": "efa121dc9d6e00bc3e7d0591c54a491039755f0c7567bde5fee8b2ea50c939b7",
+      "size": 12336
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/model/BoundingBox.kt",
+      "sha256": "1222b326b2d002bc8c884954f0e4e707b72eba0b035e916f329389110ab379f4",
+      "size": 1733
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/model/GeoPoint.kt",
+      "sha256": "75be9783b0046b638a2e7c84f2e8c169a38522be9f89560e006bfb1acb9534d4",
+      "size": 468
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/model/MapStyles.kt",
+      "sha256": "28466dafa4d74be9968fa967f599b7ee1f5d85571b73f75f50111954fea6c611",
+      "size": 1336
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/model/PhysicalSign.kt",
+      "sha256": "e072bba46853f18663497bc9ce9619f6c933a0bba61d48f5861401609bb040c2",
+      "size": 1356
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/model/RoadEdge.kt",
+      "sha256": "4c70c33c7d468ba3ce078ff74f3d0bc8a4b76647fd9beed050a4160e1080d150",
+      "size": 736
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/core/storage/SettingsRepository.kt",
+      "sha256": "5a9633b96dc27a5d2ce6f43591f45f7b3936b5d1fcfee2a0a70e52cddb275a50",
+      "size": 1996
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/map/GpsOverlay.kt",
+      "sha256": "d37c4f9346d26bf9c7ebe2d61af8ff26923f242d6c1900cfc4a5389ad3bab131",
+      "size": 2167
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/map/MapRenderPolicy.kt",
+      "sha256": "956ca9fa9a990ba30b3282681225c2a6da4656a6b7307fedfc18f28d3cb74e89",
+      "size": 1363
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/map/RouteOverlay.kt",
+      "sha256": "ac8e171828b217a30cb845b686e9fcc11ac06dd9645ccf3a17623ff5b09a55bb",
+      "size": 3908
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/map/SignsOverlay.kt",
+      "sha256": "bb3f4dbe53fb81f7c2c963341086bfbf9bf7b69039878eb23be9ccf1a60d8cdf",
+      "size": 4271
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/NavigationRenderPolicy.kt",
+      "sha256": "da686274b2d1a25247ab30a8183cd262d86b130d051edfa8eb32452cc79e13fe",
+      "size": 1386
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/NavigationVoice.kt",
+      "sha256": "b60a6882d0edc8b0149d4aad19461789ead495e7188043fcb7618862b708f849",
+      "size": 3755
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/OfflineFallback.kt",
+      "sha256": "866b3cad66dfd18cf859fbfccb28c826911e90381de09c79c10cdd7fe73e657f",
+      "size": 1307
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/OrsRoutingProvider.kt",
+      "sha256": "898174d26386bc3156d291361fffd659f2702341da5e3c253c792a6fd339d456",
+      "size": 9669
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/OsrmResponseParser.kt",
+      "sha256": "19ede69f57e001dcfdaf1b8c9e118c7d85ed40473a8615d255cebab9138f7200",
+      "size": 5827
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/OsrmRoutingProvider.kt",
+      "sha256": "dd02b83bfa34029c28fafd0ab204abcfe984ff0d3573fae2d16f9f26a9be8b82",
+      "size": 5153
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/PolylineDecoder.kt",
+      "sha256": "956f05a1f8ce1e1a2b4e82d795798a7697c30d2daff7a412d6b0b33b1b3222c5",
+      "size": 3206
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/RouteCoordinator.kt",
+      "sha256": "26aa5134f04b127558a24b52d351440e2d7640a29fecdeb2122860b9f3355f7a",
+      "size": 16083
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/RoutingChain.kt",
+      "sha256": "68874c48cff7a8e9a795f0e870ac05c3cc56ebad2df6d92fdddb12352f5448b3",
+      "size": 8586
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/RoutingProvider.kt",
+      "sha256": "15cafea4560679b68f07dd113ce4d593ba1e5e9d585601607cb4c5a2969d37ae",
+      "size": 2498
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/SecretSanitizer.kt",
+      "sha256": "4827c541a91873490a988cf154d74d28553822ef3f8a3da59cf2202eb5d00824",
+      "size": 923
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/nav/ValhallaRoutingProvider.kt",
+      "sha256": "932424354aedb5e9f7af0b8593087a8296371f0960d8a13dbc35f39376cc86c3",
+      "size": 5975
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/AdminAliases.kt",
+      "sha256": "bac837981489ff8232d6fdbd23f7f58ff0c1c14d3e97b25bf889018680031b41",
+      "size": 4969
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/FavoritesRepository.kt",
+      "sha256": "1012c6a53690b679b3ab7a56e27c28955eeee38746f6e110f91206b9fd371ee8",
+      "size": 4872
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/GeoLinkParser.kt",
+      "sha256": "7ba55006e4a7cfd0496915557e667064398280f661fdc070a005faaa484c0c67",
+      "size": 12920
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/HemNgoFallback.kt",
+      "sha256": "a67403735f24c765b6d5cc2d274e81f50ba3cfa8f449b4e04a451f70639f85aa",
+      "size": 3574
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/MatchEvidence.kt",
+      "sha256": "e17dee0a657b07096bee878893d47a642100224584b20bce3fef4e4f21224ada",
+      "size": 5050
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/PhotonSearchProvider.kt",
+      "sha256": "860e8049b5bdeba470725a09374ebc2f8d919fe6498a380a7c717fcb08aab3bf",
+      "size": 19033
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/QuerySanitizer.kt",
+      "sha256": "277dcc7e1877ab9ff5dbda8086751cdd69045cc1c0dc444ebede90858702dde2",
+      "size": 2751
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchCoordinator.kt",
+      "sha256": "f9eb1e63be2872f8952120a7f59c38d7d624beb42f9f0e8432be2d4e0bf9ef72",
+      "size": 13854
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchDistance.kt",
+      "sha256": "570febd78df3815e22f84ee39167a66202f40c35f7a6fdd7c3543e5282033832",
+      "size": 1657
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchGrouping.kt",
+      "sha256": "867df62b5ac7ba1a3ff9bef938e2268d621d1c11791882c855055c92b2aef0c7",
+      "size": 3728
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchModels.kt",
+      "sha256": "f2307a66baa4212e19d4c348b14f0eab7b7c34379f776a9ff166eb3fbd980aac",
+      "size": 4747
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchResultRanker.kt",
+      "sha256": "38e4037db5367ebcf20ed2faa67e6481359db51c0edb61049286601aa1285841",
+      "size": 1930
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/SearchStore.kt",
+      "sha256": "b2ab9745cc50ee401bf9595b20885ae4e1c77334be3798f7141b8b0dec2affcc",
+      "size": 6978
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/VerificationLabels.kt",
+      "sha256": "947b18818a46e027b84d98605db33f1bf57c748bebbd16515162b45464922c13",
+      "size": 1184
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/search/VietnameseNormalizer.kt",
+      "sha256": "a6a7df221d90fcc0c8a4c4b985ddc469deb2a31daa9b559dcc957be9e4f93059",
+      "size": 2308
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/ActivePackPointer.kt",
+      "sha256": "5bd172f99d24cbc1e5bf23107ef0eeb591bc88280df6bd049fcdeaa035300af5",
+      "size": 2053
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/ActiveSignPackManager.kt",
+      "sha256": "1a2123227446e761184194e1d4468135a5c101aa6ed34679750fe98b01cae03b",
+      "size": 28423
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/BundledOfflinePackLoader.kt",
+      "sha256": "cb110064ba0f719b09e304a3faf81b453f1dd5edaed963cd0f9fad1e9a9197cb",
+      "size": 6515
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/OfflinePackStorageManager.kt",
+      "sha256": "18d4e3f62b6147328aa671a03227a92d98274ad5d8572dc31f8a3c258c9312a8",
+      "size": 20456
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/OfflinePackValidator.kt",
+      "sha256": "d9033135fd484c9f36ebceb217451be64ee2741a5aea1d165631b4a8c37fb556",
+      "size": 39037
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/OfflineSignRepository.kt",
+      "sha256": "fe947b84cebf1f28c2f6e44bc58aa3e879ffde71dd445098a042ead83f34545d",
+      "size": 19228
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/PackImportResult.kt",
+      "sha256": "424db1b9e58e676048798287a4137748aaec0df3879be19fbd78112f51c7b0f2",
+      "size": 2419
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/PackStatus.kt",
+      "sha256": "1cd633964b31b6e35d2334b6575c901a2798be141c9eac161cec19ae41b80304",
+      "size": 1006
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/SafPackImportHelper.kt",
+      "sha256": "c53246acea68767a58f4c257b714dd2e64f0a30b266559844fc5a72d4943f34e",
+      "size": 6191
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/SignProvider.kt",
+      "sha256": "95568be4dcf7ff66097d0e0d81988c02c8365588f183c9d0289cad5b9939f8ae",
+      "size": 1367
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/SignsMapRenderer.kt",
+      "sha256": "e4b3331b9424ce91fb28c563037623bfa01a514f19e006f215065b176a13f511",
+      "size": 1278
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/SignsOverlayCoordinator.kt",
+      "sha256": "3c2aa60f4b1e96ae101f578f4ad1a3a07ef4797c55af6eb3641ccc554b6b5ec6",
+      "size": 11768
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/SignsOverlayState.kt",
+      "sha256": "ad4e916b230db005621c12b463b8972a13f7fcf08a5908c4e906ef98167f9c7f",
+      "size": 1173
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/db/AndroidSignPackDb.kt",
+      "sha256": "af617ad53700f40ea2b1bf249406c80a15785a58ca0602f3f95ea44e83c09add",
+      "size": 3113
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/signs/db/SignPackDb.kt",
+      "sha256": "f65172468721079c06c36e14a1549b2c4aa44e1911e5929df6444cca12a119fd",
+      "size": 2594
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/BleScanPolicy.kt",
+      "sha256": "cd5f96d34dfd6700c7079067c354b0c158beadf6b29985968f3b57804587cf22",
+      "size": 1573
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/DeviceVerification.kt",
+      "sha256": "42bed4bbfb7cf63a62df1ec68723a3c2bb353b294381c9c73950c2ed75a106e0",
+      "size": 2176
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/SyntheticV1Codec.kt",
+      "sha256": "4a9a358939e639bb8ff2950a34dad1fa239c00cd567fbb854301ec0f7f417d36",
+      "size": 4095
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/TpmsAlarms.kt",
+      "sha256": "4a3f78d7880ab61beefae22c8d2cca389b9a9e61204cdfaad835c88d3f790673",
+      "size": 5776
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/TpmsModel.kt",
+      "sha256": "a36dedf102b13c6ab3243e328f27cc1d99a507f34a77fb0aa9e709db2133fd86",
+      "size": 7784
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/TpmsMonitor.kt",
+      "sha256": "e4c6c3dc15d3bec16c69b85c11c8781bc1b9318aee21e75ececc677e95a32f87",
+      "size": 4351
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/TpmsTransport.kt",
+      "sha256": "dd5ce5dc606efcb8a37478e98ecaa7d2f232312a6cb3f9ff77d72f10b67ec75a",
+      "size": 952
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/TpmsUuids.kt",
+      "sha256": "4849cef19714fa15cb8e47a46a3ee6ac9b11677b33d71e9e1d2da6ec71555f50",
+      "size": 1713
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/WheelBinder.kt",
+      "sha256": "8bd5d7f4a7065f09677e0f0b5e361b8c5fc74c9a9d339b5d64c3654f13c51459",
+      "size": 2901
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/BleAdvertTpmsTransport.kt",
+      "sha256": "806c869426888f364acad5a902cd0374d8ef609de17fca462537350a747e7556",
+      "size": 10784
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/BleGattTpmsTransport.kt",
+      "sha256": "fd53b12591a387df897dcbf2f60786123bbc298fdd07f8771911072f8192b48e",
+      "size": 22932
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/BleScanWindow.kt",
+      "sha256": "3460ec2c71bf9c4100d63deb4e6ee5597a18edbff195833be8db1816def4859b",
+      "size": 5125
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/GattConnection.kt",
+      "sha256": "b586c73c85f56558b41902c9d46b8c7410aa9d14c1dc89823bfd0962ff433004",
+      "size": 7342
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/GattOperationQueue.kt",
+      "sha256": "333159bfb47545564c4e318a30c3b70501f7edf2b43628e8a7e72c6321e38ff3",
+      "size": 2766
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ble/SessionPublisher.kt",
+      "sha256": "09ff00954f3bcb7a27a55ee044fa2b0785534edef14792295f37d32f7797d6d2",
+      "size": 3431
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/rf/Legacy433Receiver.kt",
+      "sha256": "4191b0ac523a619323b6892564d72d2ce31383ebc8e132af06a9d707870e60a8",
+      "size": 1100
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/service/TpmsForegroundService.kt",
+      "sha256": "5177672d10e13c52c17c0cce6e20170c13599b38f17f7cbfb1b7634437809584",
+      "size": 3281
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/sim/TpmsSimulator.kt",
+      "sha256": "538050564d731dbf5e6591b165002a6d5dbafd26591ea7ce9603f9cfed358741",
+      "size": 1843
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/storage/TpmsSettingsRepository.kt",
+      "sha256": "95d5bc7a3ddcb6cb6048f57d49c7189b151fda089b453268f5100f2d0348e192",
+      "size": 3461
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/ui/TpmsPanel.kt",
+      "sha256": "bef267d9a0cfd3991474a699f46dd25261d6f1125a92a30fa44a38bf7cb2f02b",
+      "size": 6622
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/usb/UsbHidTpmsTransport.kt",
+      "sha256": "41ca5b364896f9f992d9031714c73e3174ad4eafcba0cfe466112cc40685aeaf",
+      "size": 1519
+    },
+    {
+      "path": "app/src/main/java/vn/vumap/feature/tpms/voice/TpmsAnnouncer.kt",
+      "sha256": "75ef0d8ab7168ffb347e798c813d0d4db44a82676da48fd1cab02f12e1d40aab",
+      "size": 3182
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "ff1d06ec6a4820f416a95c071ab7de50a8f48ae756a9571db25de2c4496d773c",
+      "size": 607
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "678da6560d837e905ba0c82a15a11918714729de283138721e85ccc1eb1ee9ff",
+      "size": 341
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "sha256": "678da6560d837e905ba0c82a15a11918714729de283138721e85ccc1eb1ee9ff",
+      "size": 341
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "dbdd9acf08ee7467c912a679d25db284b3d8a9390dc960b34869ab188faaaef6",
+      "size": 121
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "977d2d6bad0d40661a58a5cf7dda15820ab76a4b600aa0d66d337332dbecbea9",
+      "size": 107
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "43af3201b008ee365468a058aedbab956c67dbc865b3fb359c30d1a18aa6f928",
+      "size": 147
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/core/location/FixExpiryGateTest.kt",
+      "sha256": "eed29b0f921a0cfd92b9784b5e4b2129d4f12845a040075131833c5f966fc711",
+      "size": 7099
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/core/location/LocationFreshnessTest.kt",
+      "sha256": "6015b40c5e4d22fb7e49709a7cae01e56f7d23548a32a44c5b23d39a9c176deb",
+      "size": 11144
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/core/model/GeoPointTest.kt",
+      "sha256": "3ce400a4b56785ce1ccd1691cb0923829b52790e40e933b6124adff0bd71784b",
+      "size": 1044
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/core/model/MapStylesTest.kt",
+      "sha256": "8814764791556c3f74f4087da2a2f34cbb9c88578f558a0034b095c44c8ff5aa",
+      "size": 1531
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/map/MapRenderPolicyTest.kt",
+      "sha256": "4a50ed62490ba2a367a1ecf1a3279e9378188da2288cdb734e75c4b101440247",
+      "size": 2358
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/GoldenFixturesComparisonTest.kt",
+      "sha256": "ac8aa208ab1aab24a007d80c17cff5b9a1b0a99efa2870261e6c7e0815fe04bd",
+      "size": 6579
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/MockWebServerRoutingTest.kt",
+      "sha256": "a2d38eddf440f93b9c9c17eacc0e5d1ea25cf90cdbe1ca322cd939c1b85e5f23",
+      "size": 13293
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/NavigationRenderPolicyTest.kt",
+      "sha256": "3713907528b384ffd805d6fa0597202bfed73c7fadf00c499fee0721c1cf8930",
+      "size": 3196
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/OfflineFallbackTest.kt",
+      "sha256": "48756e7914f8a240f9fdaf30fa7e8ee6c12181c56ced6a7664b6b55423a15ffc",
+      "size": 1310
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/PolylineDecoderTest.kt",
+      "sha256": "cfd4a1150ec8dc3f5c742441657cf9c976b86c12ef7808e01102b26941101799",
+      "size": 2187
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/RouteCacheOriginTest.kt",
+      "sha256": "f661472945b4c5d883bf83307d6779bda595eac757e63d8799a266f5f6c35244",
+      "size": 8394
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/RouteCoordinatorFlightTest.kt",
+      "sha256": "1e7f9d3d7cd0b52097b5191c372a429a774df7e070790e6874b8ebee8a8876fc",
+      "size": 5521
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/nav/RouteProgressTest.kt",
+      "sha256": "e54b32191a3db73fce7a6d7961c16d128d14a8c5e7bb287311e66adba66da48c",
+      "size": 6435
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/AdminAliasesTest.kt",
+      "sha256": "143d10e05d010b975074acf8f193b390d7394e45b4f2b3df012426519a6a0c23",
+      "size": 2436
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/FavoritesRepositoryTest.kt",
+      "sha256": "f50ed15ba62eeb05de7690ad300573f823ae8c52181ee02c35d79bb7fa23e0bc",
+      "size": 5776
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/GeoLinkParserTest.kt",
+      "sha256": "0423efafcecb76ee1ba3df902d9c1f40d128c2c81e886909309de14157068152",
+      "size": 7702
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/HemNgoFallbackTest.kt",
+      "sha256": "1dd27d9d0b59b11daf034ab69eb1bdd0ec88a3361149b9a88db5a48cc9668bfb",
+      "size": 2563
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/MatchEvidenceTest.kt",
+      "sha256": "29af130e31158c1bf9a7528f4864ad77a10b2f8c53617ece69315e016509b7a4",
+      "size": 4698
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/PhotonSearchProviderTest.kt",
+      "sha256": "0939c1698d64a42302108dda4239c4de4a25afbf1d20b684da90dd5fdb4dc491",
+      "size": 10957
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/QuerySanitizerTest.kt",
+      "sha256": "defc5de1f57f1b4a3d939382eb593767a12973e9eab2b5bb88d614ca359f968f",
+      "size": 2570
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchCoordinatorTest.kt",
+      "sha256": "c5234bc939c78e0a81e32887bb4abb483c5accb62cee41bc4c8cff809fe61dc4",
+      "size": 16072
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchQualityTest.kt",
+      "sha256": "66167b211a421b399d39cd8e553785bb6dfc0ed91d80ddad7880fe75cfd91973",
+      "size": 4093
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchRelevanceTest.kt",
+      "sha256": "de0135b00a1230bc8df8395f98fff70fa7126e6a0bb233d430d679c07fae0d14",
+      "size": 15625
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchScopeTest.kt",
+      "sha256": "575fe2492a40f32dc1c87400de1f43211e862dd274caeafe8bed76e7d127da08",
+      "size": 4213
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchStoreTest.kt",
+      "sha256": "45706ac1bc062eb35b2d194db97b535d8cbb4b84f70649c1f3629bee9fe31e27",
+      "size": 4360
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/SearchTestUrls.kt",
+      "sha256": "fd3f2116cb40f057f0233447f26280e4dd98ba603630a1296767335887de7343",
+      "size": 788
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/search/VietnameseNormalizerTest.kt",
+      "sha256": "4893a723abffc9dd3c6c77a7a3c2f62ed54abd886a8b12e3c7827807646a5411",
+      "size": 1656
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/ActiveSignPackManagerTest.kt",
+      "sha256": "7a48664a099824912d2f947e79d38424d167cf5324375bf6d40899bd7928fe80",
+      "size": 60261
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/BoundingBoxTest.kt",
+      "sha256": "e7d97593a9c4a0a6def73d65b6479bb1551e3869e76b7107bf4f479ff91711ff",
+      "size": 1626
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/BundledOfflinePackLoaderTest.kt",
+      "sha256": "f02b6fedd4b0f183c2239f25c4b0b447be2703feb7ba1c1d18649787aef98657",
+      "size": 5656
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/OfflinePackStorageManagerTest.kt",
+      "sha256": "2a0dcc88e196edfbe26d510f7ae8198ab710bc15cb70714b1c3e84ca59f19ba8",
+      "size": 9127
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/OfflinePackValidatorTest.kt",
+      "sha256": "89f5ce2d5b10f4ab73b9854a88716e108be3c75de46ea23d242e6876454a1088",
+      "size": 26039
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/OfflineSignRepositoryTest.kt",
+      "sha256": "a5501925374318b7c145de00152ec18c93946b377b239d83f09c99b9dfaeda3d",
+      "size": 40808
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/PackGenerationDeterminismTest.kt",
+      "sha256": "96e86ab34b566151dda3492f63450fbab8a000661a735fece2b28fec327b6e62",
+      "size": 5782
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/RoadLimitPackReadTest.kt",
+      "sha256": "00da7698d5bdd35d05956afa7e9d2102782b4ad7d5305677cb1a5f1281750054",
+      "size": 17744
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/SafPackImportHelperTest.kt",
+      "sha256": "b0b950a9cce0562b037768ff565ee924ef6ee6510a4fecb558e7af0f1eb2d0c2",
+      "size": 2640
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/SignsOverlayCoordinatorTest.kt",
+      "sha256": "2b3bd18357a6ade8cc7a31596718d100ceaaabf99252d43355199392f7f89b8e",
+      "size": 37681
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/TestPackBuilder.kt",
+      "sha256": "1e27f23ac69f4da32edcc364de58c3d26759894e61523cfa3b511d6bd9ff3463",
+      "size": 8992
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/signs/db/JdbcSignPackDb.kt",
+      "sha256": "f860f77de75a39bb908a46cf35afc954e9ad3ac48d35c035f600088d787d83df",
+      "size": 4128
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/AlarmPolicyTest.kt",
+      "sha256": "3e4ee798132f63e1f390dc1d07bd88f07451e218022a26517ce65941f8df5b92",
+      "size": 3368
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/NormalityGateTest.kt",
+      "sha256": "a5f4fb9a09b43174cf867a964649c155031035c373ce05f8b4177ad4e7244690",
+      "size": 9025
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/SimulatorTest.kt",
+      "sha256": "2ffbc92750013034f3d27da0219b6d07586fb427429a34be54487151b0dec2be",
+      "size": 3518
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/StaleDetectionTest.kt",
+      "sha256": "2f7b4682dba0ea18ef4f7d9b19c317ae081d3296b9263e89ee94ae9e387e8a9b",
+      "size": 3258
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/SyntheticV1CodecTest.kt",
+      "sha256": "3f6ccf048931a4fa5ec801a265869b92e0499874dd3722f1825e5b758b0f3ef7",
+      "size": 2197
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/WheelBinderTest.kt",
+      "sha256": "23df714e11548a02ec3645a66248395a20252650614e7ef103e271840e702a2c",
+      "size": 2499
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/ble/BleScanSessionTest.kt",
+      "sha256": "fac8367fa55eb704558f9d6d7d5a2d3e4dfea7fc30b5e1b0de092b569cc7d5b4",
+      "size": 4751
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/ble/BleScanWindowTest.kt",
+      "sha256": "243469d4679b69ace09897867229586b3e26ab9399f61b0c45b425d446480232",
+      "size": 4398
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/ble/GattConnectionTest.kt",
+      "sha256": "754d48cacc4b2f2a8866ad5ceab5e5de89154bf57802dd8e8d8931116b0ba0f9",
+      "size": 13592
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/ble/GattOperationQueueTest.kt",
+      "sha256": "57171297672853fd6c7e9d632d3c89a221375b38bd142aa7ad94d31838ddf3fc",
+      "size": 6827
+    },
+    {
+      "path": "app/src/test/java/vn/vumap/feature/tpms/ble/SessionPublisherTest.kt",
+      "sha256": "6a8cb8988666396af6973e5ab92a936ccc3957dc00f90edf855f54345a8c6a90",
+      "size": 12764
+    },
+    {
+      "path": "app/src/test/resources/fixtures/ors_hcm.json",
+      "sha256": "a73d296153a7b0767cb19f220f75af6e7a117bb95b4eea4a39b7b2298ba3b5ee",
+      "size": 1209
+    },
+    {
+      "path": "app/src/test/resources/fixtures/osrm_danang.json",
+      "sha256": "36aab2677336fbd98a0b217bb3b16b77ca3fd08f1ece6e3dad4cff414688818c",
+      "size": 1972
+    },
+    {
+      "path": "app/src/test/resources/fixtures/osrm_hanoi.json",
+      "sha256": "68c124876a1769a3a846114dbc5488fc4c850d7acc6ef3a45c8d1b3c69a4f28c",
+      "size": 2474
+    },
+    {
+      "path": "app/src/test/resources/fixtures/osrm_hcm.json",
+      "sha256": "60d1764576ad314e380d4796930562ee8ab949ffa7df823a45aba0202b595fa6",
+      "size": 2004
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_ambiguous.json",
+      "sha256": "655520cdc3cf0553ac77c1752422e9268ac7aab92357515500a4e2d9465394f4",
+      "size": 856
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_bad_request_400.json",
+      "sha256": "3b58737cc2fcb251db2cb0427e23a2ddb863e667baea0dd54b359052b0d36874",
+      "size": 152
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_coarse_place.json",
+      "sha256": "5f71ffc85de63901d6e5a0c13c8a25bd8d37e37a2c8e4eab78db335f4a3878b8",
+      "size": 884
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_country_missing.json",
+      "sha256": "c499e121dc4674d47b6158d10ec94f491ad80600bd3b1dce7f0faa33fba04043",
+      "size": 1596
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_hcm.json",
+      "sha256": "f9f76b483b53ba3cb44ca9cf16477cbe6cf3d5c606ea38e01c7e911a38676378",
+      "size": 1382
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_landmark81.json",
+      "sha256": "9eb63d97d55d8f2203ac9a54cfd4f4eb0128a6fba29d8f2c44440408967a3ddf",
+      "size": 2473
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_reverse.json",
+      "sha256": "fc056709d85115f86b968736e20aa51db7e27a920f8008cf8b1abd640ef8ba7f",
+      "size": 494
+    },
+    {
+      "path": "app/src/test/resources/fixtures/photon_unrelated_poi.json",
+      "sha256": "01c7f543a967367fd238f8f759c68b003ca32c81526681a1f574f89cf8c0d358",
+      "size": 911
+    },
+    {
+      "path": "app/src/test/resources/fixtures/valhalla_danang.json",
+      "sha256": "fc39fd7390f978d2dd8656c0d533c02da3c72b79bc7a6aa260d24a4d900d6370",
+      "size": 1965
+    },
+    {
+      "path": "app/src/test/resources/fixtures/valhalla_hanoi.json",
+      "sha256": "4ce4892c09421ab14acf2fc626e6d0c548c888933666bc4d01fc39acbb97ddb1",
+      "size": 2467
+    },
+    {
+      "path": "app/src/test/resources/fixtures/valhalla_hcm.json",
+      "sha256": "0e060643499546c9669d5e46a38354131e504d348e311331c07631765cb68b01",
+      "size": 1909
+    },
+    {
+      "path": "app/src/test/resources/search_quality_20.json",
+      "sha256": "97cc0e36a71080d16ad4abccc2164571a576869f2c1be1cd1478afd353fd23d8",
+      "size": 2364
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "e155d7c9db08c9705cfeac415058f486d4b0da7218f7e08efea6ffdeafc3c08f",
+      "size": 693
+    },
+    {
+      "path": "feature/signs/.gitignore",
+      "sha256": "a01a894bdc725688ce0989bb1bdaaa798b81976358f12ad1a1992d728d364a9c",
+      "size": 105
+    },
+    {
+      "path": "feature/signs/fixtures/osm/hanoi_maxspeed_bbox_osm.json",
+      "sha256": "28fe1fe6ebc401585283a47bd926e06a0bedf8154fb977393cd575e0bd91d9f1",
+      "size": 3458
+    },
+    {
+      "path": "feature/signs/fixtures/osm/hanoi_maxspeed_bbox_osm.provenance.json",
+      "sha256": "f9feb98c04bb3a9479359e769e1f740ff59ca83bbd2a02e1aac204d586d4d84b",
+      "size": 850
+    },
+    {
+      "path": "feature/signs/fixtures/synthetic_vn_road_limits_p2.json",
+      "sha256": "262b0bb65edda11c27f80a149604f89d49089c291704054353b93efb30b1e576",
+      "size": 3734
+    },
+    {
+      "path": "feature/signs/fixtures/synthetic_vn_signs_p1.json",
+      "sha256": "970dca8923f9206e38354c71a66a76e17b72938875ea678864c7136b8c038dba",
+      "size": 6937
+    },
+    {
+      "path": "feature/signs/run_tests.ps1",
+      "sha256": "0851249743682fc5bcabb86a3be8a00cbb673d92614587fb8777dae8514114d3",
+      "size": 494
+    },
+    {
+      "path": "feature/signs/run_tests.sh",
+      "sha256": "0b22c036161a272e5422eb6d6c8d07b40a144b48afb76e3043a70ab12568cbf6",
+      "size": 493
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/CarriagewayType.java",
+      "sha256": "dfcf3bff09ea4e7540fd2f76ca387a802fb1068150f8fe001e44a3fe30229f28",
+      "size": 1405
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/MapMatcher.java",
+      "sha256": "b9a10c899e6f331b971536b4ad47975c47f87fd0063afe9df1f5fec06d2baf6f",
+      "size": 9632
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/PackManifest.java",
+      "sha256": "fd1de20e5e5870f60231838de2ab2d26686958a72ca267cc0e41efd1fc10db87",
+      "size": 771
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/PackPoint.java",
+      "sha256": "3242972b9ff9266e53dec88636b27b94912d5474ed127b39d4a992a665406ce2",
+      "size": 1191
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/RoadLimit.java",
+      "sha256": "f184c10b0039ca281098e5ff13f1786b04c53422d9e269ffa7572056eb7d29c2",
+      "size": 6113
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/SignPackValidator.java",
+      "sha256": "4350e80d13ade167800f86a56299bdcdf140e647631ff9f286bb6f69aeefb6e9",
+      "size": 9385
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/SignType.java",
+      "sha256": "e1d3358e856f95692eb2f458e185d042ec486292637cd58d137916ac0009bc4c",
+      "size": 706
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/SpeedAdvisory.java",
+      "sha256": "02ee8700952a03b6c6b8d38e70d8b5a3e93a328feb46c26f4189e5a7b1e45f56",
+      "size": 1937
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/SpeedResolver.java",
+      "sha256": "0fb2a77ab3bdf73bb21123c8cddfb60d06fb5abe918e1540cac5e1382561d190",
+      "size": 12509
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/ValidationResult.java",
+      "sha256": "b92cc38bb18460588fba5e6af8c4eaa604235f0a829454569d0182b30229dda7",
+      "size": 1184
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/ZoneEvidence.java",
+      "sha256": "ebf43b894f6b8dc036f6d7f534a8bb1bc38b0cbdb633abc7dfd432fab6a25558",
+      "size": 1916
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/ZoneState.java",
+      "sha256": "84feecca3560c2596eeef4a6ad1b3443b46b66be4e4f7f24b6f1ff81ceb18a9d",
+      "size": 860
+    },
+    {
+      "path": "feature/signs/src/main/java/vn/vumap/signs/ZoneTracker.java",
+      "sha256": "accc5982cc96b971868928eaf196f9d3d580bdd13120c228f59f8853600ee33b",
+      "size": 6990
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/Assert.java",
+      "sha256": "2c4072ffbeee6477e89916f942532396c4778c5f736c1b9284b0233deab25fa0",
+      "size": 831
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/MapMatcherTest.java",
+      "sha256": "bd67a3d4048b14479e0b7ebb1a34c3b6495f1f618806b126bfc4a70bcdfda1ea",
+      "size": 8168
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/RoadLimitArbitrationTest.java",
+      "sha256": "42fd252d07f42bde22274287263ec0106592c530bd84f0d7696862912702b65b",
+      "size": 18420
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/RunAllTests.java",
+      "sha256": "16b3ab8ff930c4fad440f925453df81829f1e48660aa559262c5303b042e8114",
+      "size": 725
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/SignPackValidatorTest.java",
+      "sha256": "3e4e2b468adaa72c59c228d42a23ea938a7a1e82058f6ba18a96814372d5c959",
+      "size": 7858
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/SpeedResolverTest.java",
+      "sha256": "24f6fd0b62bee0e34463a85bdde2a12cd92496a25d034d63e3d75de2a7c4c21f",
+      "size": 5890
+    },
+    {
+      "path": "feature/signs/src/test/java/vn/vumap/signs/ZoneTrackerTest.java",
+      "sha256": "a6a8f7ee09bbbda4aa641554c9ba35d174e40ff34a7afcbca054981dbb14f777",
+      "size": 5745
+    },
+    {
+      "path": "feature/signs/tools/pack/osm_road_limits.py",
+      "sha256": "d26e20fb65e536e68bc42c3c2942b2d5ee620d9af36bae0181906603cd46a7d9",
+      "size": 15374
+    },
+    {
+      "path": "feature/signs/tools/pack/pack_build.py",
+      "sha256": "5786e59785a27d2c6baf800c2ca2e971b80deb23e56f92aec42f0ece9a303035",
+      "size": 7811
+    },
+    {
+      "path": "feature/signs/tools/pack/pack_format.py",
+      "sha256": "9c2e31ffed36ce3a9d408b00ceb928ab6ba4e9637b9a8ee83e9d6723af3bae44",
+      "size": 9665
+    },
+    {
+      "path": "feature/signs/tools/pack/pack_install.py",
+      "sha256": "4c0f6b89def924b04f20847eca4846b399ef2c7f765d9d3f5a9d639f4413a5d7",
+      "size": 10016
+    },
+    {
+      "path": "feature/signs/tools/pack/pack_validate.py",
+      "sha256": "9b79a3f12fec5be265aa5b8df517d14c569605719b28d67c401a40880ec122f5",
+      "size": 23254
+    },
+    {
+      "path": "feature/signs/tools/pack/run_pack_tests.py",
+      "sha256": "0074c619ba6c5d017cd6f859a8c248b8ee397d475fa301d3d2feb98d4e5a1149",
+      "size": 731
+    },
+    {
+      "path": "feature/signs/tools/pack/test_osm_road_limits.py",
+      "sha256": "696207edbe43f7c2329c16481fe1c06b945bfd566357057982aecb8ceb383185",
+      "size": 17934
+    },
+    {
+      "path": "feature/signs/tools/pack/test_pack_pipeline.py",
+      "sha256": "6162999fa9697823112407e05bb36f12fc0b9af6ff5ef0b16761d21baa2047b8",
+      "size": 29671
+    },
+    {
+      "path": "feature/signs/tools/pack/test_pack_road_limits.py",
+      "sha256": "250cb0eed6cbdc763a6cf2a392af9bf53c9e2ccf9a50916b5eacd21c53073deb",
+      "size": 20928
+    },
+    {
+      "path": "feature/signs/tools/validate_fixture.py",
+      "sha256": "a1353fa68d3c85b87a2f4f6d2b704414dc5fbb4f2aca623d20be941a249db25d",
+      "size": 4043
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "1b0d06c4540bd61cab45f373e963c74fa139d08167d7786012d2496666a0b258",
+      "size": 133
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "04a8ced2893ed23acecd015940d86970c1888d58c39ab7815c3dc73f81114ea3",
+      "size": 3255
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "3b8a25775a69158b5ad2b1d17a80a88dc7b40a352a73eb27d06c612a7ce68e98",
+      "size": 48749
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "3cbe35d0020d8393c73f4cc2572838d1db338dd27885dd4d88c46b4d28f762e0",
+      "size": 281
+    },
+    {
+      "path": "gradlew",
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59",
+      "size": 8656
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "f17917f8dbe61182b149273ee78090fec1197442c3f38276af907bfa5190db16",
+      "size": 4888
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "4580c740973cd8f07fae01833e03ec90934722b33256ae9cf6c0d12c70598eb0",
+      "size": 323
+    },
+    {
+      "path": "tools/verify_snapshot.py",
+      "sha256": "23f4849dbbc9eeb3123c1eff58b48798a151862c315f902e9aba27b36c704534",
+      "size": 6494
+    }
+  ],
+  "exclusions": [
+    "private git history",
+    "owner analysis, plans, reviews, and reverse-engineering documents",
+    "credentials, keys, tokens, local configuration, and environment files",
+    "reports, generated build output, and IDE state",
+    "personal media, GPS traces, camera media, and vendor-specific data",
+    "files outside the reviewed allowlist in tools/public-ci/export_policy.json"
+  ],
+  "syntheticData": {
+    "declaredSynthetic": true,
+    "packPath": "app/src/main/assets/signs/synthetic_vn_signs_p1.vupack",
+    "packSha256": "8b4a47e82c1392d5acb1cdb55699f8ce2d18c5b54bad86e5ebc40327b51d25e2",
+    "packBytes": 28672,
+    "fixturePath": "feature/signs/fixtures/synthetic_vn_signs_p1.json",
+    "fixtureSha256": "970dca8923f9206e38354c71a66a76e17b72938875ea678864c7136b8c038dba",
+    "pointCount": 18,
+    "edgeCount": 13,
+    "source": "synthetic-vumap-p1",
+    "license": "synthetic-test-only — not a surveyed sign, never navigate by it"
+  },
+  "publicationRedactions": {
+    "applied": true,
+    "paths": [
+      ".gitignore",
+      "app/src/main/java/vn/vumap/app/ui/MapScreen.kt",
+      "app/src/main/java/vn/vumap/app/ui/SearchScreen.kt",
+      "app/src/main/java/vn/vumap/core/location/LocationTracker.kt",
+      "app/src/main/java/vn/vumap/core/model/GeoPoint.kt",
+      "app/src/main/java/vn/vumap/core/model/MapStyles.kt",
+      "app/src/main/java/vn/vumap/core/storage/SettingsRepository.kt",
+      "app/src/main/java/vn/vumap/feature/map/RouteOverlay.kt",
+      "app/src/main/java/vn/vumap/feature/nav/NavigationVoice.kt",
+      "app/src/main/java/vn/vumap/feature/nav/OfflineFallback.kt",
+      "app/src/main/java/vn/vumap/feature/nav/OrsRoutingProvider.kt",
+      "app/src/main/java/vn/vumap/feature/nav/OsrmRoutingProvider.kt",
+      "app/src/main/java/vn/vumap/feature/nav/RouteCoordinator.kt",
+      "app/src/main/java/vn/vumap/feature/nav/RoutingChain.kt",
+      "app/src/main/java/vn/vumap/feature/nav/RoutingProvider.kt",
+      "app/src/main/java/vn/vumap/feature/nav/SecretSanitizer.kt",
+      "app/src/main/java/vn/vumap/feature/nav/ValhallaRoutingProvider.kt",
+      "app/src/main/java/vn/vumap/feature/search/AdminAliases.kt",
+      "app/src/main/java/vn/vumap/feature/search/FavoritesRepository.kt",
+      "app/src/main/java/vn/vumap/feature/search/GeoLinkParser.kt",
+      "app/src/main/java/vn/vumap/feature/search/HemNgoFallback.kt",
+      "app/src/main/java/vn/vumap/feature/search/MatchEvidence.kt",
+      "app/src/main/java/vn/vumap/feature/search/PhotonSearchProvider.kt",
+      "app/src/main/java/vn/vumap/feature/search/QuerySanitizer.kt",
+      "app/src/main/java/vn/vumap/feature/search/SearchCoordinator.kt",
+      "app/src/main/java/vn/vumap/feature/search/SearchModels.kt",
+      "app/src/main/java/vn/vumap/feature/search/SearchStore.kt",
+      "app/src/main/java/vn/vumap/feature/search/VietnameseNormalizer.kt",
+      "app/src/main/java/vn/vumap/feature/signs/OfflinePackValidator.kt",
+      "app/src/main/java/vn/vumap/feature/signs/SignProvider.kt",
+      "app/src/main/java/vn/vumap/feature/tpms/DeviceVerification.kt",
+      "app/src/main/java/vn/vumap/feature/tpms/TpmsUuids.kt",
+      "app/src/main/java/vn/vumap/feature/tpms/rf/Legacy433Receiver.kt",
+      "app/src/main/java/vn/vumap/feature/tpms/usb/UsbHidTpmsTransport.kt",
+      "app/src/test/java/vn/vumap/feature/nav/GoldenFixturesComparisonTest.kt",
+      "app/src/test/java/vn/vumap/feature/nav/MockWebServerRoutingTest.kt",
+      "app/src/test/java/vn/vumap/feature/nav/OfflineFallbackTest.kt",
+      "app/src/test/java/vn/vumap/feature/search/PhotonSearchProviderTest.kt",
+      "app/src/test/java/vn/vumap/feature/search/SearchQualityTest.kt",
+      "app/src/test/java/vn/vumap/feature/search/VietnameseNormalizerTest.kt",
+      "feature/signs/src/main/java/vn/vumap/signs/SpeedResolver.java",
+      "feature/signs/src/main/java/vn/vumap/signs/ZoneTracker.java",
+      "gradle/libs.versions.toml"
+    ],
+    "note": "Narrow text redactions remove private document names and vendor reverse-engineering references; build inputs and test behavior are unchanged."
+  },
+  "privacyAudit": {
+    "note": "Warnings surface source-comment terms for human review; they are not claims that data is present.",
+    "terms": [
+      {
+        "term": "C2M",
+        "occurrences": 7,
+        "samplePaths": [
+          "app/src/main/AndroidManifest.xml",
+          "app/src/main/java/vn/vumap/feature/tpms/BleScanPolicy.kt",
+          "app/src/main/java/vn/vumap/feature/tpms/ui/TpmsPanel.kt",
+          "app/src/main/java/vn/vumap/feature/tpms/usb/UsbHidTpmsTransport.kt"
+        ]
+      }
+    ]
+  },
+  "notices": [
+    "This is a CI snapshot, not the source of truth.",
+    "No license is granted by publishing this snapshot.",
+    "No production or field-safety claims are made.",
+    "Bundled synthetic fixtures and the .vupack asset are synthetic test-only data."
+  ]
+}

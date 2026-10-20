@@ -1,0 +1,35 @@
+{
+  "features": [
+    {
+      "geometry": {"coordinates": [106.695100, 10.770000], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3001,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "residential",
+        "housenumber": "1",
+        "street": "Tôn Thất Tùng",
+        "district": "Quận 1",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Việt Nam"
+      }
+    },
+    {
+      "geometry": {"coordinates": [109.190000, 12.230000], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3002,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "residential",
+        "housenumber": "1",
+        "street": "Lê Thánh Tôn",
+        "district": "Nha Trang",
+        "city": "Nha Trang",
+        "country": "Việt Nam"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

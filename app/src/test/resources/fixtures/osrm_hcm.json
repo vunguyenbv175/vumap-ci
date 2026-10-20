@@ -1,0 +1,76 @@
+{
+  "code": "Ok",
+  "routes": [
+    {
+      "geometry": "g`opS_piojEgpAg{CozDwgD",
+      "legs": [
+        {
+          "steps": [
+            {
+              "geometry": "g`opS_piojEgpAg{C",
+              "maneuver": {
+                "bearing_after": 50,
+                "bearing_before": 0,
+                "location": [106.698000, 10.772500],
+                "type": "depart"
+              },
+              "mode": "driving",
+              "duration": 45.0,
+              "distance": 320.0,
+              "name": "Đường Lê Lợi"
+            },
+            {
+              "geometry": "s`opS_piojEozDwgD",
+              "maneuver": {
+                "bearing_after": 45,
+                "bearing_before": 50,
+                "location": [106.700500, 10.773800],
+                "modifier": "straight",
+                "type": "continue"
+              },
+              "mode": "driving",
+              "duration": 60.0,
+              "distance": 480.0,
+              "name": "Đường Lê Lợi"
+            },
+            {
+              "geometry": "s`opS_piojE",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 45,
+                "location": [106.703200, 10.776800],
+                "type": "arrive"
+              },
+              "mode": "driving",
+              "duration": 0.0,
+              "distance": 0.0,
+              "name": "Nhà hát Thành phố"
+            }
+          ],
+          "summary": "Đường Lê Lợi",
+          "weight": 105.0,
+          "duration": 105.0,
+          "distance": 800.0
+        }
+      ],
+      "weight_name": "routability",
+      "weight": 105.0,
+      "duration": 105.0,
+      "distance": 800.0
+    }
+  ],
+  "waypoints": [
+    {
+      "hint": "abc",
+      "distance": 1.2,
+      "name": "Bến Thành",
+      "location": [106.698000, 10.772500]
+    },
+    {
+      "hint": "def",
+      "distance": 0.8,
+      "name": "Nhà hát Thành phố",
+      "location": [106.703200, 10.776800]
+    }
+  ]
+}

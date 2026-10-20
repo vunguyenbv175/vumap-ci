@@ -1,0 +1,60 @@
+{
+  "features": [
+    {
+      "geometry": {"coordinates": [106.6980, 10.7725], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8201,
+        "osm_type": "N",
+        "osm_key": "amenity",
+        "osm_value": "marketplace",
+        "name": "Chợ Bến Thành",
+        "street": "Lê Lợi",
+        "district": "Quận 1",
+        "city": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "geometry": {"coordinates": [-77.4080, 38.4173], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8202,
+        "osm_type": "N",
+        "osm_key": "place",
+        "osm_value": "house_number",
+        "housenumber": "81",
+        "name": "81 Landmark Drive",
+        "street": "Landmark Drive",
+        "city": "Stafford",
+        "countrycode": "US"
+      }
+    },
+    {
+      "geometry": {"coordinates": [105.8500, 21.0333], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8203,
+        "osm_type": "N",
+        "osm_key": "amenity",
+        "osm_value": "marketplace",
+        "name": "Chợ Hôm",
+        "street": "Phố Huế",
+        "district": "Hai Bà Trưng",
+        "city": "Hà Nội",
+        "country": "Việt Nam"
+      }
+    },
+    {
+      "geometry": {"coordinates": [106.7000, 10.7700], "type": "Point"},
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8204,
+        "osm_type": "W",
+        "osm_key": "highway",
+        "osm_value": "residential",
+        "street": "Đường Không Rõ Quốc Gia"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

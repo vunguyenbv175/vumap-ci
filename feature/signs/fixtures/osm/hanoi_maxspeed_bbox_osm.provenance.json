@@ -1,0 +1,17 @@
+{
+    "source":  "OpenStreetMap",
+    "sourceUrl":  "https://www.openstreetmap.org/",
+    "query":  "[out:json][timeout:25];way[\"highway\"][\"maxspeed\"](20.9970,105.8470,21.0010,105.8520);out tags geom;",
+    "endpoint":  "https://overpass-api.de/api/interpreter",
+    "bbox":  {
+                 "minLon":  105.847,
+                 "maxLat":  21.001,
+                 "minLat":  20.997,
+                 "maxLon":  105.852
+             },
+    "osmBaseTimestamp":  "2026-10-20T08:15:48Z",
+    "retrievedAt":  "2026-10-20T08:17:46Z",
+    "license":  "ODbL-1.0",
+    "attribution":  "© OpenStreetMap contributors - https://www.openstreetmap.org/copyright",
+    "note":  "Bounded one-time extract (4 ways) for the offline road-evidence adapter. Explicit maxspeed tags only; not field-surveyed and not a legal speed verification."
+}

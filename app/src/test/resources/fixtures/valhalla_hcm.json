@@ -1,0 +1,72 @@
+{
+  "code": "Ok",
+  "routes": [
+    {
+      "geometry": "g`opS_piojEgpAg{CozDwgD",
+      "legs": [
+        {
+          "steps": [
+            {
+              "geometry": "g`opS_piojEgpAg{C",
+              "maneuver": {
+                "bearing_after": 50,
+                "bearing_before": 0,
+                "location": [106.698000, 10.772500],
+                "type": "depart"
+              },
+              "mode": "driving",
+              "duration": 48.0,
+              "distance": 325.0,
+              "name": "Đường Lê Lợi"
+            },
+            {
+              "geometry": "s`opS_piojEozDwgD",
+              "maneuver": {
+                "bearing_after": 45,
+                "bearing_before": 50,
+                "location": [106.700500, 10.773800],
+                "modifier": "straight",
+                "type": "continue"
+              },
+              "mode": "driving",
+              "duration": 62.0,
+              "distance": 485.0,
+              "name": "Đường Lê Lợi"
+            },
+            {
+              "geometry": "s`opS_piojE",
+              "maneuver": {
+                "bearing_after": 0,
+                "bearing_before": 45,
+                "location": [106.703200, 10.776800],
+                "type": "arrive"
+              },
+              "mode": "driving",
+              "duration": 0.0,
+              "distance": 0.0,
+              "name": "Nhà hát Thành phố"
+            }
+          ],
+          "summary": "Đường Lê Lợi",
+          "weight": 110.0,
+          "duration": 110.0,
+          "distance": 810.0
+        }
+      ],
+      "weight_name": "auto",
+      "weight": 110.0,
+      "duration": 110.0,
+      "distance": 810.0
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Bến Thành",
+      "location": [106.698000, 10.772500]
+    },
+    {
+      "name": "Nhà hát Thành phố",
+      "location": [106.703200, 10.776800]
+    }
+  ]
+}

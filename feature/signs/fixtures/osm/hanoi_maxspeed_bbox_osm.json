@@ -1,0 +1,129 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-20T08:15:48Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 593622566,
+  "bounds": {
+    "minlat": 20.9964310,
+    "minlon": 105.8473135,
+    "maxlat": 20.9986677,
+    "maxlon": 105.8484244
+  },
+  "geometry": [
+    { "lat": 20.9964310, "lon": 105.8473135 },
+    { "lat": 20.9964859, "lon": 105.8473239 },
+    { "lat": 20.9966861, "lon": 105.8473668 },
+    { "lat": 20.9967045, "lon": 105.8474025 },
+    { "lat": 20.9967428, "lon": 105.8474198 },
+    { "lat": 20.9968711, "lon": 105.8474646 },
+    { "lat": 20.9969585, "lon": 105.8474763 },
+    { "lat": 20.9971655, "lon": 105.8475040 },
+    { "lat": 20.9973119, "lon": 105.8475236 },
+    { "lat": 20.9974001, "lon": 105.8475396 },
+    { "lat": 20.9976700, "lon": 105.8476049 },
+    { "lat": 20.9979676, "lon": 105.8477003 },
+    { "lat": 20.9978556, "lon": 105.8483097 },
+    { "lat": 20.9980383, "lon": 105.8483583 },
+    { "lat": 20.9981772, "lon": 105.8484244 },
+    { "lat": 20.9982078, "lon": 105.8483539 },
+    { "lat": 20.9983063, "lon": 105.8483872 },
+    { "lat": 20.9983837, "lon": 105.8482605 },
+    { "lat": 20.9985143, "lon": 105.8483617 },
+    { "lat": 20.9985884, "lon": 105.8484145 },
+    { "lat": 20.9986233, "lon": 105.8483757 },
+    { "lat": 20.9986677, "lon": 105.8483238 }
+  ],
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "maxspeed": "40",
+    "motorcar": "destination",
+    "motorcycle": "yes",
+    "name": "NgÃµ TÃ¢n Láº¡c",
+    "oneway": "no",
+    "service": "alley",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 593639401,
+  "bounds": {
+    "minlat": 20.9980419,
+    "minlon": 105.8466838,
+    "maxlat": 20.9991123,
+    "maxlon": 105.8479144
+  },
+  "geometry": [
+    { "lat": 20.9980419, "lon": 105.8466838 },
+    { "lat": 20.9980758, "lon": 105.8467248 },
+    { "lat": 20.9981541, "lon": 105.8468198 },
+    { "lat": 20.9984883, "lon": 105.8472085 },
+    { "lat": 20.9986646, "lon": 105.8474274 },
+    { "lat": 20.9991123, "lon": 105.8479144 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxheight": "12",
+    "maxspeed": "50",
+    "motorcycle": "yes",
+    "name": "NgÃµ Tá»± Do",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1241302366,
+  "bounds": {
+    "minlat": 20.9991123,
+    "minlon": 105.8479144,
+    "maxlat": 20.9999873,
+    "maxlon": 105.8488885
+  },
+  "geometry": [
+    { "lat": 20.9991123, "lon": 105.8479144 },
+    { "lat": 20.9998455, "lon": 105.8487384 },
+    { "lat": 20.9999679, "lon": 105.8488761 },
+    { "lat": 20.9999873, "lon": 105.8488885 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "50",
+    "name": "NgÃµ Tá»± Do",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1429897683,
+  "bounds": {
+    "minlat": 20.9999873,
+    "minlon": 105.8488885,
+    "maxlat": 21.0000974,
+    "maxlon": 105.8490986
+  },
+  "geometry": [
+    { "lat": 20.9999873, "lon": 105.8488885 },
+    { "lat": 20.9999986, "lon": 105.8488969 },
+    { "lat": 21.0000605, "lon": 105.8490232 },
+    { "lat": 21.0000974, "lon": 105.8490986 }
+  ],
+  "tags": {
+    "highway": "service",
+    "maxspeed": "50",
+    "motorcar": "destination",
+    "name": "NgÃµ 402 Phá» Báº¡ch Mai",
+    "service": "alley",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

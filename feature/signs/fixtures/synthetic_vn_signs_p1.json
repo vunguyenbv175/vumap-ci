@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "source": "synthetic-vumap-p1",
+    "license": "synthetic-test-only — not a surveyed sign, never navigate by it",
+    "version": "p1-20261015",
+    "created": "2026-10-15",
+    "note": "Hand-built CI fixture (18 points, budget <=50). Covers R420/R421 scope, unknown carriageway, 20km missing-R421 decay, parallel-road negative, bridge decks, opposite-direction, orphan R421, intersection hold, ramp and expressway. Coordinates are plausible VN locations, NOT field truth."
+  },
+  "edges": [
+    {"id": "E_Q1", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "HCMC Xa Lo Ha Noi seg1 (dual, 2 lanes)"},
+    {"id": "E_Q2", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Continuation of E_Q1"},
+    {"id": "E_Q1_OPP", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 270, "note": "Opposite direction of E_Q1"},
+    {"id": "E_U1", "carriageway": "UNKNOWN", "level": 0, "roadClass": "residential", "lanes": null, "headingDeg": 0, "note": "Hanoi ngo, carriageway unverified"},
+    {"id": "E_L1", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 180, "note": "Da Nang coastal long straight (missing-R421 decay)"},
+    {"id": "E_P_LEFT", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Parallel service pair, left deck (~7m from right)"},
+    {"id": "E_P_RIGHT", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Parallel service pair, right deck"},
+    {"id": "E_BR_UP", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 1, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Overpass upper deck"},
+    {"id": "E_BR_LOW", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Ground road under overpass"},
+    {"id": "E_RAMP", "carriageway": "TWO_WAY_OR_ONEWAY_1LANE", "level": 0, "roadClass": "motorway_link", "lanes": 1, "headingDeg": 45, "note": "Exit ramp off E_Q2"},
+    {"id": "E_MWAY", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "motorway", "lanes": 3, "headingDeg": 90, "note": "Expressway segment (cao toc) — suspends zone default"},
+    {"id": "E_INT", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 90, "note": "Intersection interior (zone must hold)"},
+    {"id": "E_ORPH", "carriageway": "DUAL_DIVIDED_OR_ONEWAY_2PLUS", "level": 0, "roadClass": "primary", "lanes": 2, "headingDeg": 0, "note": "Orphan R421 corridor (no prior R420 seen)"}
+  ],
+  "points": [
+    {"id": "S01", "type": "R420", "lat": 10.82310, "lon": 106.62970, "headingDeg": 90, "valueKmh": null, "edgeId": "E_Q1", "confidence": 0.90, "source": "OFFLINE_PACK", "note": "Zone start, valid scope pair with S03"},
+    {"id": "S02", "type": "P127", "lat": 10.82312, "lon": 106.63010, "headingDeg": 90, "valueKmh": 60, "edgeId": "E_Q1", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Direction-matched 60 on E_Q1"},
+    {"id": "S03", "type": "R421", "lat": 10.82315, "lon": 106.63500, "headingDeg": 90, "valueKmh": null, "edgeId": "E_Q2", "confidence": 0.90, "source": "OFFLINE_PACK", "note": "Zone end closing S01 scope"},
+    {"id": "S04", "type": "P127", "lat": 10.82308, "lon": 106.63000, "headingDeg": 270, "valueKmh": 50, "edgeId": "E_Q1_OPP", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Opposite direction — must NOT apply to E_Q1 travel"},
+    {"id": "S05", "type": "R420", "lat": 21.02780, "lon": 105.83420, "headingDeg": 0, "valueKmh": null, "edgeId": "E_U1", "confidence": 0.80, "source": "OFFLINE_PACK", "note": "Unknown carriageway — numeric must stay 50/60-undefined"},
+    {"id": "S06", "type": "R420", "lat": 16.05440, "lon": 108.20220, "headingDeg": 180, "valueKmh": null, "edgeId": "E_L1", "confidence": 0.90, "source": "OFFLINE_PACK", "note": "Long-missing start (20km decay test anchor)"},
+    {"id": "S07", "type": "P127", "lat": 10.82500, "lon": 106.63000, "headingDeg": 90, "valueKmh": 60, "edgeId": "E_P_LEFT", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Parallel pair: sign ONLY on left deck"},
+    {"id": "S08", "type": "R420", "lat": 10.82600, "lon": 106.63100, "headingDeg": 90, "valueKmh": null, "edgeId": "E_BR_UP", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Upper deck zone start"},
+    {"id": "S09", "type": "P127", "lat": 10.82605, "lon": 106.63105, "headingDeg": 90, "valueKmh": 50, "edgeId": "E_BR_LOW", "confidence": 0.80, "source": "OFFLINE_PACK", "note": "Lower deck limit (level test, different type from S08)"},
+    {"id": "S10", "type": "R421", "lat": 21.03000, "lon": 105.83600, "headingDeg": 0, "valueKmh": null, "edgeId": "E_ORPH", "confidence": 0.80, "source": "OFFLINE_PACK", "note": "Orphan end sign, no entry seen in corridor"},
+    {"id": "S11", "type": "R420", "lat": 10.82320, "lon": 106.63200, "headingDeg": 90, "valueKmh": null, "edgeId": "E_INT", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Intersection interior — zone must hold across it"},
+    {"id": "S12", "type": "P127", "lat": 10.82316, "lon": 106.63400, "headingDeg": 90, "valueKmh": 60, "edgeId": "E_Q2", "confidence": 0.80, "source": "OFFLINE_PACK", "note": "Second 60 on E_Q2"},
+    {"id": "S13", "type": "P127", "lat": 10.82330, "lon": 106.63600, "headingDeg": 45, "valueKmh": 40, "edgeId": "E_RAMP", "confidence": 0.80, "source": "OFFLINE_PACK", "note": "Ramp limit, applies only after ramp match"},
+    {"id": "S14", "type": "P127", "lat": 10.83000, "lon": 106.64000, "headingDeg": 90, "valueKmh": 100, "edgeId": "E_MWAY", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Expressway limit (motorway hint must not reset zone)"},
+    {"id": "S15", "type": "P127", "lat": 10.82313, "lon": 106.63015, "headingDeg": 90, "valueKmh": 80, "edgeId": "E_Q1", "confidence": 0.75, "source": "OSM", "note": "Conflicting OSM 80 vs pack 60 on same edge — conflict must suppress"},
+    {"id": "S16", "type": "R420", "lat": 10.82505, "lon": 106.63005, "headingDeg": 90, "valueKmh": null, "edgeId": "E_P_LEFT", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Parallel zone start, left deck only"},
+    {"id": "S17", "type": "R420", "lat": 16.04440, "lon": 108.20220, "headingDeg": 180, "valueKmh": null, "edgeId": "E_L1", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Second anchor on long road (~1.1km from S06, refresh test)"},
+    {"id": "S18", "type": "P127", "lat": 16.04445, "lon": 108.20225, "headingDeg": 180, "valueKmh": 60, "edgeId": "E_L1", "confidence": 0.85, "source": "OFFLINE_PACK", "note": "Direction-matched 60 on long road"}
+  ]
+}

@@ -1,0 +1,105 @@
+name: Signs host tests (public snapshot)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "feature/signs/**"
+      - "tools/verify_snapshot.py"
+      - "PUBLIC_SNAPSHOT.json"
+      - ".github/workflows/signs-host-tests.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "feature/signs/**"
+      - "tools/verify_snapshot.py"
+      - "PUBLIC_SNAPSHOT.json"
+      - ".github/workflows/signs-host-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: signs-host-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  host-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out snapshot
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Verify snapshot manifest
+        run: python3 tools/verify_snapshot.py --root .
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Compile + run host rule tests
+        working-directory: feature/signs
+        run: |
+          rm -rf build
+          mkdir -p build/classes
+          javac -encoding UTF-8 -d build/classes \
+            src/main/java/vn/vumap/signs/*.java \
+            src/test/java/vn/vumap/signs/*.java
+          java -cp build/classes vn.vumap.signs.RunAllTests
+
+      - name: Validate synthetic fixture
+        working-directory: feature/signs
+        run: python3 tools/validate_fixture.py fixtures/synthetic_vn_signs_p1.json
+
+      - name: Pack pipeline tests (build/validate/install, real temp SQLite)
+        working-directory: feature/signs
+        run: python3 tools/pack/run_pack_tests.py
+
+      - name: Pack build + validate + determinism check
+        working-directory: feature/signs
+        run: |
+          python3 tools/pack/pack_build.py \
+            --fixture fixtures/synthetic_vn_signs_p1.json \
+            --out build/synthetic_vn_signs_p1.vupack
+          python3 tools/pack/pack_validate.py \
+            --pack build/synthetic_vn_signs_p1.vupack \
+            --manifest build/synthetic_vn_signs_p1.vupack.manifest.json
+          python3 tools/pack/pack_build.py \
+            --fixture fixtures/synthetic_vn_signs_p1.json \
+            --out build/rebuild.vupack
+          cmp build/synthetic_vn_signs_p1.vupack build/rebuild.vupack
+
+      - name: Road-evidence v2 pack build + validate + determinism check
+        working-directory: feature/signs
+        run: |
+          if [ ! -f fixtures/synthetic_vn_road_limits_p2.json ]; then
+            echo "NOT RUN: fixtures/synthetic_vn_road_limits_p2.json is absent from this snapshot (pre-PR20 baseline); no v2 road-evidence pack was built, validated, or checked for determinism."
+            exit 0
+          fi
+          for tool in tools/pack/pack_build.py tools/pack/pack_validate.py; do
+            if [ ! -f "$tool" ]; then
+              echo "ERROR: $tool is missing while fixtures/synthetic_vn_road_limits_p2.json is present; the v2 road-evidence step must never be silently skipped." >&2
+              exit 1
+            fi
+          done
+          python3 tools/pack/pack_build.py \
+            --fixture fixtures/synthetic_vn_road_limits_p2.json \
+            --out build/road_limits_v2.vupack
+          python3 tools/pack/pack_validate.py \
+            --pack build/road_limits_v2.vupack \
+            --manifest build/road_limits_v2.vupack.manifest.json
+          python3 tools/pack/pack_build.py \
+            --fixture fixtures/synthetic_vn_road_limits_p2.json \
+            --out build/road_limits_v2_rebuild.vupack
+          cmp build/road_limits_v2.vupack build/road_limits_v2_rebuild.vupack

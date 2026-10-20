@@ -1,0 +1,4 @@
+# Public CI snapshot: preserve exact bytes from the private source commit.
+* -text
+*.jar binary
+*.vupack binary
